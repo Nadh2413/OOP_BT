@@ -7,7 +7,13 @@ public class Dog {
 	private int yob;
 	private double weight;
 	
-//	Khởi tạo các  một object ( nó như là cái phễu )
+	
+@Override
+	public String toString() {
+		return "Dog [name=" + name + ", yob=" + yob + ", weight=" + weight + "]";
+	}
+
+	//	Khởi tạo các  một object ( nó như là cái phễu )
 	public Dog(String name, int yob, double weight) {
 		this.name = name;
 		this.yob = yob;
